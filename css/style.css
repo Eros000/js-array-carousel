@@ -15,6 +15,28 @@ body {
 }
 
 .container {
-    max-width: 1200px;
+    max-width: 1000px;
     margin: 0 auto;
+    background-color: lightcoral;
+    height: 800px;
+    padding-top: 200px;
+}
+
+
+.img-container{
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    display: none;
+}
+
+.my-img{
+    width: 600px;
+    height: 300px;
+    object-fit: cover;
+    
+}
+
+.active{
+    display: block;
 }
