@@ -20,6 +20,7 @@ body {
     background-color: lightcoral;
     height: 100vh;
     padding-top: 200px;
+    position: relative;
 }
 
 
@@ -41,14 +42,28 @@ body {
     display: block;
 }
 
-.prev button{
-    width: 30px;
-    height: 30px;
+.prev{
+    background-color: aliceblue;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
+    text-align: center;
+    padding-top: 2px;
+    position: absolute;
+    top: 220px;
+    left: 500px;
+    
 }
 
-.next button{
-    width: 30px;
-    height: 30px;
+.next{
+    background-color: aliceblue;
+    width: 20px;
+    height: 20px;
     border-radius: 50%;
+    text-align: center;
+    padding-top: 2px;
+    position: relative;
+    top: 300px;
+    left: 500px;
+    
 }
