@@ -69,3 +69,19 @@ myButtonPrev.addEventListener( 'click',function(){
     
 })
 
+setInterval(function(){
+
+    const activeImage = document.getElementById('img_'+activeId);
+    
+    if(activeId < images.length-1){    
+        activeId++;
+    }else{
+        activeId = 0;
+    }
+
+    const nextImage = document.getElementById('img_'+activeId);
+
+    activeImage.classList.remove('active');
+    nextImage.classList.add('active');
+    
+}, 3000)
